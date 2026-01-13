@@ -15,6 +15,7 @@ Visual Studio Code + GitHub Starter Guide
 - Apply for GitHub Education 
 - Extensions Installations on VS Code
 - Create a repository
+- Design a splash screen for Jenga
 
 ---
 ## Assets
