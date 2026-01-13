@@ -5,23 +5,21 @@ function setup() {
 }
 
 function draw() {
-  background(245);
+  background(222, 184, 135);
 
-  noStroke();
-  fill(222, 184, 135);
-  rect(width / 2, height / 2, 320, 100);
-
-  fill(101, 67, 33);
-  textSize(80);
+  fill(0);
+  textSize(150);
   textStyle(BOLD);
-  text("JENGA", width / 2, height / 2 + 10);
+  text("JENGA", width / 2, height / 2 - 80);
 
-  if (frameCount % 60 < 30) {
-    fill(150);
-    textSize(20);
-    textStyle(NORMAL);
-    text("- INSERT COIN -", width / 2, height / 2 + 80);
-  }
+  fill(0);
+  noStroke();
+  circle(width / 2, height / 2 + 100, 120);
+
+  fill(255);
+  textSize(40);
+  textStyle(NORMAL);
+  text("Start", width / 2, height / 2 + 100);
 }
 
 function windowResized() {
